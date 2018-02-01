@@ -1,0 +1,27 @@
+{
+	"camera" :
+	{
+		"width"  : 640,
+		"height" : 480,
+		"fx"     : 536.6280,
+		"fy"     : 536.6060,
+		"cx"     : 310.5910,
+    "cy"     : 234.7590
+    //"width"  : 512,
+		//"height" : 424,
+		//"fx"     : 365.668396,
+		//"fy"     : 365.668396,
+		//"cx"     : 257.106293,
+		//"cy"     : 209.599396
+	},
+	"vert_shader_path" : "D:/depth_visualizer/src/shaders/depth_visualizer.vert",
+	"frag_shader_path" : "D:/depth_visualizer/src/shaders/depth_visualizer.frag",
+  "in_path_pattern": "D:/denoise_data/backpack/dt400_rec5/dt_frame_%06d.png",
+  "phong_out_path_pattern": "D:/denoise_data/backpack/dt400_rec5_g/frame_%06d.png",
+  "normal_out_path_pattern": "D:/denoise_data/lizhen/dn400ffffff_n/frame_%06d.png",
+	"near_clip" : 0.1,
+	"far_clip" : 10.0,
+	"max_dist" : 0.1,
+	"start_frame" : 2,
+  "end_frame": 312
+}
